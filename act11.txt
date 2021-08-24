@@ -1,0 +1,69 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		String intro = "---Input Information---";
+		
+		Console.Write("Firstname: ");
+		string first = Console.ReadLine();
+		
+		Console.Write("Middile Initial: ");
+		string middle = Console.ReadLine();
+		
+		Console.Write("Surname: ");
+		string last = Console.ReadLine();
+		
+		Console.Write("Gender: ");
+		string sex = Console.ReadLine();
+		
+		Console.Write("Address: ");
+		string address = Console.ReadLine();
+		
+		Console.Write("Birth Month: ");
+		string month = Console.ReadLine();
+		
+		Console.Write("Birth Day: ");
+		string day = Console.ReadLine();
+		
+		Console.Write("Birth Year: ");
+		string year = Console.ReadLine();
+		
+		Console.Write("Age: ");
+		string age = Console.ReadLine();
+		
+		Console.Write("Contact: ");
+		string contact = Console.ReadLine();
+		
+		Console.Write("Display Address: ");
+		string da = Console.ReadLine();
+		
+		String introo = "---Display Information---";
+		String introoo = "---END---";
+		String full = last + ", " + first + " " + middle + ".";
+		String date = month + " " + day + ", " + year;
+ 		
+		Console.WriteLine(intro);
+		Console.WriteLine("Firtsname: " + first);
+		Console.WriteLine("Middle Initial: " + middle);
+		Console.WriteLine("Surname: " + last);
+		Console.WriteLine("Gender: " + sex);
+		Console.WriteLine("Address: " + address);
+		Console.WriteLine("Birth Month: " + month);
+		Console.WriteLine("Birth Day: " + day);
+		Console.WriteLine("Birth Year: " + year);
+		Console.WriteLine("Age: " + age);
+		Console.WriteLine("Contact #: " + contact);
+		Console.WriteLine(introo);
+		Console.WriteLine("Fullname: " + full);
+		Console.WriteLine("Gender: " + sex);
+		Console.WriteLine("Birthdate: " + date);
+		Console.WriteLine("Age: " + age + " years old");
+		Console.WriteLine("Contact #:" + contact);
+		Console.WriteLine("Display Address: " + da);
+		Console.WriteLine(introoo);
+			
+		Console.ReadLine();
+	}
+}
